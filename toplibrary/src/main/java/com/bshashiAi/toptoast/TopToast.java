@@ -23,9 +23,6 @@ import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.res.ResourcesCompat;
 
-import com.bshashiAi.toptoast.utils.AnimationType;
-import com.bshashiAi.toptoast.utils.ToastType;
-
 public class TopToast {
     
     public static final int LENGTH_SHORT = Toast.LENGTH_SHORT;
