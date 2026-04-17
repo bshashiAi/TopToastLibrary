@@ -11,7 +11,7 @@ android {
         minSdk 21
         targetSdk 34
         versionCode 1
-        versionName "1.0.5"
+        versionName "1.0.6"
         
         consumerProguardFiles "consumer-rules.pro"
     }
@@ -49,8 +49,8 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 groupId = 'com.github.bshashiAi'
-                artifactId = 'TopToastLibrary'
-                version = '1.0.5'
+                artifactId = 'BShashi_ToastAll'
+                version = '1.0.6'
                 
                 from components.release
             }
