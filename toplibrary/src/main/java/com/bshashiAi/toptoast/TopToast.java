@@ -21,6 +21,7 @@ import androidx.annotation.FontRes;
 import androidx.annotation.NonNull;
 import androidx.annotation.StringRes;
 import androidx.core.content.ContextCompat;
+import androidx.core.content.res.ResourcesCompat;
 
 import com.bshashiAi.toptoast.utils.AnimationType;
 import com.bshashiAi.toptoast.utils.ToastType;
