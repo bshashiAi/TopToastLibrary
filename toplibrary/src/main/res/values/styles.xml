@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Toast Theme -->
+    <style name="TopToastTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- Toast Text Styles -->
+    <style name="TopToastText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/toast_text_default</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TopToastText.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TopToastText.Small">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TopToastText.Large">
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>
